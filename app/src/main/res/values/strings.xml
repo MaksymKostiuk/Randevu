@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ranadive</string>
+    <string name="logo">RANDEVU</string>
+    <string name="ep">Button</string>
+    <string name="prl">Button</string>
+    <string name="vt">Button</string>
+    <string name="rgs">Button</string>
+    <string name="login">Войти</string>
+    <string name="app">Your</string>
+    <string name="reg">регистрация</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="sc1">sc!</string>
+    <string name="sc2">sc2</string>
+    <string name="lt">lg</string>
+    <string name="reg_t">РЕГИСТРАЦИЯ</string>
+
+</resources>
