@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Ranadive</string>
     <string name="logo">RANDEVU</string>
     <string name="ep">Button</string>
@@ -19,4 +19,7 @@
     <string name="about_desc">Мария,21\nФотограф,иллюстратор</string>
     <string name="about_hobbies">Люблю путешествия, фильмы, прогулки с друзьями и вкусную еду\nИщу новые знакомтва по интересам, так что пиши;)</string>
     <string name="blablabla">Майкл/nБлаблабла</string>
+  
+    <string name="app_name" tools:ignore="DuplicateDefinition">DropdownMeny</string>
+    <string name="select">Выберете Гендер</string>
 </resources>

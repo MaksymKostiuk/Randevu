@@ -8,8 +8,8 @@
     android:background="@color/mainBgColor">
 
     <ImageView
-        android:layout_width="327dp"
-        android:layout_height="381dp"
+        android:layout_width="322dp"
+        android:layout_height="380dp"
         android:src="@drawable/circle_down_left_big"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,22 +25,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:src="@drawable/randevu_word"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="40dp" />
+
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:src="@drawable/registration"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="190dp" />
-
 
     <Button
         android:id="@+id/button3"
@@ -49,19 +50,23 @@
         android:background="@drawable/custom_button"
         android:fontFamily="@font/rounded_mplus_bold"
         android:text="Продолжить"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
+        android:textSize="14dp"
         tools:layout_editor_absoluteY="585dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:hint="   Ведите пароль"
+        android:textColorHint="#FF000000"
+        android:background="@drawable/white_field"
+        android:fontFamily="@font/rounded_mplus_bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
@@ -71,12 +76,13 @@
         android:id="@+id/editTextTextEmailAddress3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="   Ваша почта"
         android:textColorHint="#FF000000"
         android:background="@drawable/white_field"
+        android:fontFamily="@font/rounded_mplus_bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
@@ -88,9 +94,23 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberPassword"
+        android:hint="   Повторите пароль"
+        android:textColorHint="#FF000000"
+        android:background="@drawable/white_field"
+        android:fontFamily="@font/rounded_mplus_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="503dp" />
+        tools:layout_editor_absoluteY="503dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Я соглашаюсь с условиями приложения"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="668dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
