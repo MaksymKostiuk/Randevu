@@ -109,8 +109,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Я соглашаюсь с условиями приложения"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="668dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="649dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
